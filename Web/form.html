@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+</head>
+<body>
+    <h1>Form pada HTML</h1>
+    <hr />
+    
+    <form action="prosess.php" method="get">
+        <h2>Form Login</h2>
+        <fieldset>
+            <legend>Login</legend>
+
+            <p>
+                <label>Username:</label>
+                <input type="text" name="username" placeholder="Username..." />
+            </p>
+
+            <p>
+                <label>Password: </label>
+                <input type="password" name="password" placeholder="Password..." />
+            </p>
+
+            <p>
+                <label> <input type="checkbox" name="remember" value="remember" /> Remember me </label>
+            </p>
+
+            <p>
+                <input type="submit" name="submit" value="Login" />
+            </p>
+
+        </fieldset>
+    </form>
+    <hr />
+
+    <form action="contact.php" method="post">
+        <h2>Form Contact</h2>
+        <fieldset>
+            <legend>Contact</legend>
+            <p>
+                <label>Name: </label>
+                <input type="text" name="name" placeholder="Your name..." />
+            </p>
+
+            <p>
+                <label>Subject: </label>
+                <input type="text" name="subject" placeholder="Subject..." />
+            </p>
+
+            <p>
+                <label>Email: </label>
+                <input type="text" name="email" placeholder="Email..." />
+            </p>
+
+            <p>
+                <input type="submit" name="submit" value="Send" />
+            </p>
+        </fieldset>
+    </form>
+    <hr />
+    
+    <form action="contact.php" method="post">
+        <h2>Form Registrasi</h2>
+        <fieldset>
+            <legend>Registrasi</legend>
+
+            <p>
+                <label>Nama: </label>
+                <input type="text" name="nama_lengkap" placeholder="Nama lengkap..." />
+            </p>
+
+            <p>
+                <label>Username: </label>
+                <input type="text" name="username" placeholder="Username" />
+            </p>
+
+            <p>
+                <label>Email: </label>
+                <input type="email" name="email" placeholder="Your email..." />
+            </p>
+
+            <p>
+                <label>Password: </label>
+                <input type="password" name="password" placeholder="Password" />
+            </p>
+
+            <p>
+                <label>Jenis kelamin: </label>
+                <label> <input type="radio" name="jenis_kelamin" value="laki_laki" />Laki-laki </label>
+                <label> <input type="radio" name="jenis_kelamin" value="perempuan" />Perempuan </label>
+            </p>
+
+            <p>
+                <label>Minat: </label>
+                <select name="Minat">
+                    <option value="frontend">Frontend developer</option>
+                    <option value="backend">Backend developer</option>
+                    <option value="fullstack">Fullstack developer</option>
+                    <option value="data_analyst">Data analyst</option>
+                    <option value="devops">Devops engineer</option>
+                    <option value="cyber-security">Cyber security</option>
+                    <option value="UX_designer">Desainer UX</option>
+                    <option value="UI_designer">Desainer UI</option>
+                </select>
+            </p>
+
+            <p>
+                <input type="submit" name="submit" value="Submit" />
+            </p>
+        </fieldset>
+    </form>
+    <hr />
+
+    <form action="contact.php" method="post">
+        <h2>Form Lanjutan</h2>
+        <fieldset>
+            <legend>Advanced Form</legend>
+
+            <p>
+                <label>Alamat web: </label>
+                <input type="url" name="name" placeholder="Masukkan URL web..." />
+            </p>
+
+            <p>
+                <label>Tanggal lahir: </label>
+                <input type="date" name="tanggal"/>
+            </p>
+
+            <p>
+                <label>Umur: </label>
+                <input type="number" min="10" max="90" name="umur" />
+            </p>
+
+            <p>
+                <input type="submit" name="submit" value="Send" />
+            </p>
+        </fieldset>
+    </form>
+    <hr />
+
+    <h3>Sekian form dari saya... &#128522;&#128522;&#128522;</h3>
+</body>
+</html>
